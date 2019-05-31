@@ -4,3 +4,43 @@
     padding: 0;
 }
 
+.subBody {
+    border: 10px solid #6D2A31;
+    padding: 20px 0;
+    background-color: #34363a;
+}
+
+.picTextContainer {
+    display: flex;
+    align-items: center;
+}
+
+.picOfMe {
+    border-radius: 50%;
+    max-height: 300px;
+    max-width: 300px;
+    order: 2;
+    box-shadow: 5px 5px #6D2A31;
+}
+
+.h1 {
+    font-size: 2.5rem;
+    font-family: "Source Sans Pro", sans-serif;
+    display: block;
+    order: 1;
+    color: #ffffff;
+    font-weight: light;
+    text-shadow: 3px 3px #6D2A31;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.h2 {
+    font-size: 2.5rem;
+    font-family: "Source Sans Pro", sans-serif;
+    order: 3;
+    color: #ffffff;
+    font-weight: light;
+    text-shadow: 3px 3px #6D2A31;
+    padding-left: 10%;
+}
