@@ -8,16 +8,20 @@ img {
     max-width: 100%;
 }
 
+body {
+    padding: 20px;
+}
+
 .borderSubBody {
     padding: 20px 0;
     position: relative;
-    background: linear-gradient(#6D2A31, #3a0d12);
+    background: linear-gradient(#6D2A31, #3c0b14);
     padding: 10px;
     max-width: 100%;
 }
 .subBody {
-    padding: 20px 0;
-    background-color: #34363a;
+    padding: 20px 0px;
+    background-color: #f9d7c5;
     max-width: 100%;
 }
 
@@ -31,44 +35,34 @@ img {
     border-radius: 50%;
     max-height: 300px;
     max-width: 300px;
-    order: 2;
-    box-shadow: 5px 5px #3a0d12;
+    box-shadow: 5px 5px #3c0b14;
 }
 
 .h1 {
     font-size: 2.5rem;
-    font-family: "Source Sans Pro", sans-serif;
-    display: block;
-    order: 1;
-    color: #ffffff;
-    font-weight: light;
-    text-shadow: 3px 3px #6D2A31;
-    padding-right: 10%;
-    padding-left: 10%;
+    font-family: "Work Sans", sans-serif;
+    color: #000000;
+    text-shadow: 2px 2px #6D2A31;
 }
 
 .h2 {
     font-size: 2.5rem;
-    font-family: "Source Sans Pro", sans-serif;
-    order: 3;
-    color: #ffffff;
-    font-weight: light;
-    text-shadow: 3px 3px #6D2A31;
-    padding-left: 10%;
+    font-family: "Work Sans", sans-serif;
+    color: #000000;
+    text-shadow: 2px 2px #6D2A31;
 }
 
 .gitIcon {
     filter:invert(100%);
-    max-width: 5%;
-    max-height: 40px;
-    padding-left: 47%;
-    padding-right: 47%;
-    padding-top: 25px;
 }
 
 .aboutMe {
     font-size: 1.5rem;
     font-family: "Source Sans Pro", sans-serif;
-    color: #ffffff;
+    color: #000000;
     padding-left: 30px;
+}
+
+@media screen and (min-width: 990px) {
+
 }
