@@ -40,17 +40,17 @@ body {
     text-shadow: 2px 2px #6D2A31;
 }
 
-.pgNavBorder {
+/* .pgNavBorder {
    padding: 20px 0;
     position: relative;
     background: linear-gradient(#6D2A31, #360509);
     padding: 10px;
     max-width: 100%;
 }
-
+*/ 
 .pgNav {
     padding: 20px 0px;
-    background-color: #B06B72;
+    /*background-color: #B06B72;*/
     max-width: 100%;
 }
   
