@@ -12,14 +12,14 @@ body {
     height: 100vh;
     padding: 20px;
     max-width: 100%;
-    width: 990px;
+    width: 800px;
     margin: 0 auto;
     background: rgb(176,107,114);
     display: grid;
-    place-items: center;
 }
 
 .gradient {
+    align-items: center;
     padding: 1rem;
     border-width: 3px;
     border-style: solid;
@@ -56,22 +56,23 @@ body {
 }
 
 .h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: "Work Sans", sans-serif;
     color: #fff;
     order: 1;
     margin: 0 auto;
     text-shadow: 2px 2px #111;
+    padding-left: 20px;
 }
 
 .h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: "Work Sans", sans-serif;
     color: #fff;
     order: 3;
     margin: 0 auto;
     text-shadow: 2px 2px #111;
-    padding-bottom: 20px;
+    padding-right: 20px;
 }
 
 .pgNav {
@@ -81,12 +82,13 @@ body {
   
 .pgNavList {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style: none;
     align-content: center;
 }
 
 button {
+    text-transform: uppercase;
     outline: none;
     font-size: 1em;
     font-weight: 600;
@@ -124,7 +126,8 @@ button:active {
 @media (max-width: 768px) and (orientation: portrait) {
     
     body {
-        width: 500px;
+        width: 50%;
+        margin: auto 0;
     }
 
     .picTextContainer {
@@ -140,8 +143,14 @@ button:active {
         padding-top: 10px;
     }
 
+    .pgNavList {
+        justify-content: space-around;
+    }
+
     button {
         display: flex;
         font-size: 10px;
     }
+
+
 }
