@@ -19,6 +19,7 @@ body {
 }
 
 .gradient {
+    margin-top: -20px;
     align-items: center;
     padding: 1rem;
     border-width: 3px;
@@ -126,7 +127,7 @@ button:active {
 @media (max-width: 768px) and (orientation: portrait) {
     
     body {
-        width: 50%;
+        max-width: 50%;
         margin: auto 0;
     }
 
@@ -145,12 +146,18 @@ button:active {
 
     .pgNavList {
         justify-content: space-around;
+        display: flex;
+        align-items: center;
     }
 
     button {
-        display: flex;
-        font-size: 10px;
+        font-size: 8px;
     }
 
+    .aboutMe {
+        margin-left: -40px;
+        margin-top: -20px;
+        margin-right: -5px;
+    }
 
 }
