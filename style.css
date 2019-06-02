@@ -11,7 +11,7 @@ img {
 body {
     padding: 20px;
     max-width: 100%;
-    width: 750px;
+    width: 800px;
     margin: 0 auto;
     background: rgb(176,107,114);
 }
@@ -20,6 +20,7 @@ body {
     padding-top: 30px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .picOfMe {
@@ -102,6 +103,7 @@ button:active {
   }
 
 .aboutMe {
+    position: relative;
     font-size: 1.5rem;
     font-family: "Source Sans Pro", sans-serif;
     color: #fff;
@@ -109,6 +111,31 @@ button:active {
     text-shadow: 1px 1px #111;
 }
 
-@media screen and (min-width: 990px) {
+@media only (max-width: 768px) and (orientation: portrait) {
+    body {
+        max-width: 50%;
+        width: 600px;
+    }
 
+    .picTextContainer {
+        display: flex;
+    }
+
+    .picOfMe {
+        order: 1;
+        display: block;
+    }
+
+    .h1 {
+        order: 2;
+        display: block;
+    }
+
+    .h2 {
+        order: 3;
+    }
+
+    .pgNav {
+        width: 50%;
+    }
 }
