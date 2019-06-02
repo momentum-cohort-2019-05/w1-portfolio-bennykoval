@@ -10,18 +10,6 @@ img {
 
 body {
     padding: 20px;
-}
-
-.borderSubBody {
-    padding: 20px 0;
-    position: relative;
-    background: linear-gradient(#6D2A31, #3c0b14);
-    padding: 10px;
-    max-width: 100%;
-}
-.subBody {
-    padding: 20px 0px;
-    background-color: #f9d7c5;
     max-width: 100%;
 }
 
@@ -52,6 +40,25 @@ body {
     text-shadow: 2px 2px #6D2A31;
 }
 
+.pgNavBorder {
+   padding: 20px 0;
+    position: relative;
+    background: linear-gradient(#6D2A31, #360509);
+    padding: 10px;
+    max-width: 100%;
+}
+
+.pgNav {
+    padding: 20px 0px;
+    background-color: #B06B72;
+    max-width: 100%;
+}
+  
+.pgNavList {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
 .gitIcon {
     filter:invert(100%);
 }
