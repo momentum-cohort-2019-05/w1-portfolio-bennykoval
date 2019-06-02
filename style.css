@@ -60,7 +60,6 @@ body {
     list-style: none;
 }
 .gitIcon {
-    filter:invert(100%);
 }
 
 .aboutMe {
