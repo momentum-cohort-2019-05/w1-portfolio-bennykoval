@@ -134,11 +134,8 @@ button:active {
 
 .projectsContainer {
    display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-   display: inline-block;
 }
-.projects {
+/* .projects {
     font-family: "Work Sans", sans-serif;
     color: #fff;
     font-size: 1rem;
@@ -146,10 +143,20 @@ button:active {
     text-align: center;
     padding: 20px;
 }
+*/
 
-.projectsSS {
+.projectsSS1 {
     max-width: 80%;
-    margin: 0 auto;
+    margin: auto;
+    display: block;
+    align-self: flex-start;
+}
+
+.projectsSS2 {
+    max-width: 80%;
+    margin: auto;
+    display: block;
+    align-self: flex-end;
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
